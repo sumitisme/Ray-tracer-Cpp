@@ -1,4 +1,5 @@
 #include "../include/vec3.hpp"
+#include "../include/ray.hpp"
 #include "../include/color.hpp"
 
 #include <iostream>
