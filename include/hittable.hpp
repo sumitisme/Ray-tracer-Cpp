@@ -10,8 +10,11 @@ class hit_record {
     double t;
     bool front_face;
 
-    void set_face_normal(const ray& r, const vec3& outward_normal) {
-        front_face = dot(r.direction(), outward_normal) < 0;
+    void set_face_normal(const ray& r, const vec3& outward_normal) { 
+        // Sets the hit record normal vector
+        // outward_normal is assumed to have unit length
+
+        front_face = dot(r.direction(), outward_normal) < 0; // Unit vector dot unit vector happening here, so output represents direction
         normal = front_face ? outward_normal : -outward_normal;
     }
 };
