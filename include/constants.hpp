@@ -24,7 +24,7 @@ inline double degrees_to_radians(double degrees) {
 }
 
 inline double random_double() {
-    // Returning a random real number between [1,0)
+    // Returning a random real number between [0,1)
     return std::rand() / (RAND_MAX + 1.0);
 }
 
