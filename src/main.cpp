@@ -8,7 +8,7 @@
 
 int main(int argc, char* argv[]) {
 
-    hittable_list world;
+    hittable_list world; // The name of the list itself is world
 
     world.add(make_shared<sphere>(point3(0, 0, -1), 0.5)); // Location, radius
     world.add(make_shared<sphere>(point3(0, -100.5, -1), 100));
@@ -17,7 +17,9 @@ int main(int argc, char* argv[]) {
 
     cam.aspect_ratio = 16.0 / 9.0;
     cam.image_width = 400;
-    cam.samples_per_pixel = 100;
+
+    cam.samples_per_pixel = 100; // I used 600 samples per pixel for the higher quality diffuse material image
+    cam.max_depth = 50; // Maximum ray bounces
 
     cam.render(world);
 
