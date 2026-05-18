@@ -90,7 +90,7 @@ class camera {
             return color(0, 0, 0);
         }
 
-        if(world.hit(r, interval(0, infinity), rec)) {
+        if(world.hit(r, interval(0.001, infinity), rec)) { // 0.001 to address the shadow acne. Result will be a bit lighter since the reflections has been optimized.
             vec3 direction = random_on_hemisphere(rec.normal);
             return 0.5 * ray_color(ray(rec.p, direction), depth - 1, world);
         }
