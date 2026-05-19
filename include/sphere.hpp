@@ -11,7 +11,7 @@ class sphere : public hittable {
     shared_ptr<material> mat;
 
     public:
-    sphere(const point3& center, double radius) : center(center), radius(std::fmax(0,radius)) {
+    sphere(const point3& center, double radius, shared_ptr<material> mat) : center(center), radius(std::fmax(0,radius)), mat(mat) {
         // Not initialized yet
     }
 

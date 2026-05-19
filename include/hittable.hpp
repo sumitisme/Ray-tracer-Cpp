@@ -3,9 +3,7 @@
 
 #include "ray.hpp"
 
-class material {
-
-};
+class material; 
 
 class hit_record {
     public:
