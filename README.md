@@ -31,3 +31,7 @@
 ## Resolution improved for the previous image (1600 x 900 as compared to 400 x 225)
 
 ![1600 x 900 image](/images/Resolution%20improved%20for%20the%20previous%20image.png)
+
+## Fuzzy material implemented for metals (1600 x 900 image)
+
+![fuzz implemented](/images/fuzz%20implemented%20and%20more%20random%20colors.png)
