@@ -1,5 +1,24 @@
 # Ray-tracer-Cpp
 
+## Prerequisites for the device:
+
+The following are expected in the system:
+* An instance of MinGW installed in the system (The msys64 installation recommended)
+* CMake installed in the system (This project uses version 4.3.1)
+* Windows (.bat files used here)
+
+## To run the project (These steps are to run it in powershell):
+
+* To build the project
+  ```sh
+  ./build.bat
+  ```
+
+* To run the project
+  ```sh
+  ./run.bat
+  ```
+
 ## The very first output
 
 ![The very first output](/images/The%20very%20first%20output.png)
