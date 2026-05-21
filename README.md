@@ -54,3 +54,7 @@ The following are expected in the system:
 ## Fuzzy material implemented for metals (1600 x 900 image)
 
 ![fuzz implemented](/images/fuzz%20implemented%20and%20more%20random%20colors.png)
+
+## Added dielectrics (Refractive index at 1.33)
+
+![Added dielectrics](/images/Added%20dielectrics.png)
