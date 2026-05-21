@@ -62,3 +62,19 @@ The following are expected in the system:
 ## Air bubble in water implemented (concepts of total internal reflection here)
 
 ![Air bubble](/images/Air%20bubble%20implemented.png)
+
+## VFOV test with two spheres (vfov = 90)
+
+![VFOV](/images/VFOV%20test%20with%20two%20spheres.png)
+
+## Camera position and Camera direction changed (vfov = 90)
+
+![Cam Lookat and Lookfrom](/images/Camera%20lookat%20and%20lookfrom.png)
+
+## vfov changed to 20
+
+![fov20](/images/fov20.png)
+
+## Final render with defocus blur
+
+![Final render](/images/final%20render%20with%20defocus%20blur.png)
