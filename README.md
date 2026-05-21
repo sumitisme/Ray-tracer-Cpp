@@ -58,3 +58,7 @@ The following are expected in the system:
 ## Added dielectrics (Refractive index at 1.33)
 
 ![Added dielectrics](/images/Added%20dielectrics.png)
+
+## Air bubble in water implemented (concepts of total internal reflection here)
+
+![Air bubble](/images/Air%20bubble%20implemented.png)
