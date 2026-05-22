@@ -30,7 +30,3 @@ The following are expected in the system:
 ## Final render with defocus blur
 
 ![Final render](/images/final%20render%20with%20defocus%20blur.png)
-
-## The render from the book in this program (final render)
-
-![Book render](/images/Final%20Render%20from%20the%20book.png)
