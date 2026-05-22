@@ -19,6 +19,8 @@ The following are expected in the system:
   ./run.bat
   ```
 
+## All relevant images in another markdown: [ALL IMAGES](/Allimages.md)
+
 ## The very first output
 
 ![The very first output](/images/The%20very%20first%20output.png)
